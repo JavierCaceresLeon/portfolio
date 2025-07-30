@@ -94,23 +94,23 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
         title: 'Internship',
         description: 'Frontend Development',
         bgImage: '/work-2-honeywell.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Promotion Team',
+        description: 'University Events',
+        bgImage: '/work-promo3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'DIFTEL Team',
+        description: 'IoT Area',
+        bgImage: '/work-4-DIFTEL.png',
+    },
+    {
+        title: 'Other Work',
+        description: 'Experience',
         bgImage: '/work-4.png',
     },
 ]

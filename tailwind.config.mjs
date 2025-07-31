@@ -9,8 +9,8 @@ export default {
         extend: {
             colors: {
                 lightHover: '#fcf4ff',
-                darkHover: '#2a004a',
-                darkTheme: '#11001f',
+                darkHover: '#05004aff',
+                darkTheme: '#00011fff',
             },
             fontFamily: {
                 Outfit: ['Outfit', 'sans-serif'],
@@ -25,6 +25,6 @@ export default {
             }
         },
     },
-    darkMode: 'class',
+    darkMode: 'selector',
     plugins: [],
 };

@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import Image from 'next/image'
 import { workData, assets } from '@/assets/assets'
 
-const Experience = () => {
+const Experience = ({ isDarkMode }) => {
   return (
     <div  id="experience" className='w-full px-[12%] py-10 scroll-mt-20'>
         <h4 className='text-center mb-2 text-lg font-Ovo'>Professional & Beyond</h4>
@@ -25,7 +25,7 @@ const Experience = () => {
         ))}
     </div>
 
-    <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>Show more <Image src={assets.right_arrow} alt='Right Arrow' className='w-4 inline-block' /></a>
+    <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>Show more <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow} alt='Right Arrow' className='w-4 inline-block' /></a>
     </div>
 
   )

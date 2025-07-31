@@ -36,7 +36,13 @@ import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
 import web_icon from './web-icon.png';
+import coding from './coding.png';
 import mobile_icon from './mobile-icon.png';
+import school from './school.png';
+import video_conference from './video-conference.png';
+import book from './book.png';
+import math from './math.png';
+import color from './color.png';
 import ui_icon from './ui-icon.png';
 import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
@@ -83,7 +89,13 @@ export const assets = {
     close_black,
     close_white,
     web_icon,
+    coding,
     mobile_icon,
+    color,
+    video_conference,
+    school,
+    math,
+    book,
     ui_icon,
     graphics_icon,
     right_arrow,
@@ -116,16 +128,16 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.coding, title: 'Software', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.math, title: 'Data Science', description: 'Data Science involves using algorithms and data to extract insights...', link: '' },
+    { icon: assets.color, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+    { icon: assets.video_conference, title: 'IoT', description: 'IoT refers to the interconnected nature of devices and systems...', link: '' },
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, C, C++, Java, JavaScript, TypeScript React Js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Telematics Civil Engineering' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Developed academic projects throughout my career' }
 ];
 
 export const toolsData = [

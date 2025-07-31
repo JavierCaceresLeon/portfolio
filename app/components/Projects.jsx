@@ -7,7 +7,7 @@ const Projects = () => {
         <div id="projects" className='w-full px-[12%] py-10 scroll-mt-20'>
             <h4 className='text-center mb-2 text-lg font-Ovo'>My Work</h4>
             <h2 className='text-center text-5xl font-Ovo'>Projects</h2>
-            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Here are some of the projects I've worked on:</p>
+            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Here are some areas where I have developed projects.</p>
             
             <div className='grid grid-cols-auto gap-6 my-10'>
                 {serviceData.map(({icon, title, description, link}, index)=>(

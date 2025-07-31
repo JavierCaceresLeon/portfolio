@@ -38,7 +38,7 @@ export default function Home() {
     <Projects isDarkMode={isDarkMode} />
     <Experience isDarkMode={isDarkMode} />
     <Contact isDarkMode={isDarkMode} />
-    <Footer />
+    <Footer isDarkMode={isDarkMode} />
     </>
   );
 }
